@@ -9,15 +9,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 #titulo{
     font-family: sans-serif;
     color: #380b61;
-    margin-left: 7%;
+    margin-top: 50%;
 }
 
 #subtitulo{
@@ -63,5 +64,27 @@ strong{
     border: 1px solid #380b61;
     box-shadow:  2px 2px 2px rgb(0,0,0,0.2);
     display: block;
+}
+
+.botao {
+    font-size: 1.2em;
+    background-color: #380b61;
+    border: 0;
+    margin-bottom: 1em;
+    margin-top: 10px;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0,0,0,0.5);
+    position: absolute;
+    margin-left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+
+.botao:hover{
+    background-color: #7a9ac9;
+    box-shadow: inset 2px 2px 2px rgb(0,0,0,0.2);
+    text-shadow: none;
 }
 
